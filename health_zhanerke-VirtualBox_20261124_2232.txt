@@ -1,0 +1,35 @@
+=== Отчёт о состоянии сервера ===
+Сервер: zhanerke-VirtualBox
+Дата: 2026-11-24 22:32:04
+Аптайм: up 12 minutes
+ОС: Ubuntu 24.04.5 LTS
+Ядро: 7.0.0-34-generic
+
+--- Сеть ---
+IP-адрес: 10.0.2.15
+Шлюз: 10.0.2.2
+DNS: 127.0.0.53 
+
+--- Ресурсы ---
+CPU: 1%
+RAM: 55%
+Disk: 43%
+
+--- Топ-5 процессов по памяти ---
+    PID USER     %MEM COMMAND
+   3265 zhanerke 15.8 firefox
+   3989 zhanerke 15.2 Isolated Web Co
+   2607 zhanerke  6.7 gnome-shell
+   4775 zhanerke  5.0 update-manager
+   3539 zhanerke  3.1 Privileged Cont
+
+--- Состояние служб ---
+ssh: active
+cron: active
+postgresql: active
+
+--- Обычные пользователи (UID >= 1000) ---
+zhanerke (UID 1000)
+
+--- Члены группы sudo ---
+zhanerke
